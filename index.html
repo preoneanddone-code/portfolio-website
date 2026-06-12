@@ -5,7 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio Page</title>
   <link rel="stylesheet" href="style.css" />
-</head>
+  <style>
+    table {
+        width: 40%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+  </style>
+  </head>
 <body>
 
   <nav class="navbar">
@@ -33,38 +46,50 @@
 
   <section id="about" class="section">
     <h2>About Me</h2>
-    <p>
-      I am learning how to build websites using HTML, CSS, and JavaScript.
-      I enjoy creating projects and learning new technology skills.
-    </p>
+    <p> I am learning how to build websites using HTML, CSS, and JavaScript. </p>
+
+    <p> I enjoy creating projects and learning new technology skills. </p>
   </section>
 
   <section id="education" class="section">
     <h2>My Education</h2>
-    <p>
-      I am currently a student at Crockett Early College High School and Austin Communtiy
-      College, where I am pursuing an associates degree in Computer Science.
-    </p>
+    <p> I am currently a student at Crockett Early College High School and Austin Communtiy </p>
+
+    <p>College, where I am pursuing an associates degree in Computer Science.</p>
   </section>
 
   <section id="skills" class="section">
     <h2>My Skills</h2>
 
-    <div class="card-container">
-      <div class="card">HTML</div>
-      <div class="card">CSS</div>
-      <div class="card">JavaScript</div>
-      <div class="card">Python</div>
-    </div>
+    <table border="1">
+        <tr>
+            <th>Skill</th>
+            <th>Proficiency</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Intermediate</td>
+    </table>
 
   </section>
 
   <section id="interests" class="section">
     <h2>My Interests</h2>
-    <p>
-      I am interested in learning more about web development, programming, and technology.
-      I also enjoy playing video games, reading, and running.
-    </p>
+    <p>I am interested in learning more about web development, programming, and technology.</p>
+
+    <p> I also enjoy playing video games, reading, and running. </p>
   </section>
 
   <section id="projects" class="section">
@@ -89,6 +114,9 @@
     <p>Phone Number: +1(512) 264-5749</p>
     <p>
       <a href="https://github.com/preoneanddone-code" target="_blank">Visit My GitHub</a>
+    </p>
+    <p>
+        <download><a href="Preston_Harter_Resume.pdf" download>Download My Resume</a></download>
     </p>
   </section>
 
