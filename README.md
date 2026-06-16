@@ -1,1 +1,1 @@
-#This is my portfolio webiste, it includes several things about me including my interests, skills, projects, resume, and contant information.
+This is my personal portfolio webiste, it includes several things about me including my interests, skills, projects, resume, and contant information.
