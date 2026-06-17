@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: navy;
+  background: black;
   color: white;
   padding: 15px 30px;
 }
@@ -30,7 +30,7 @@ body {
 
 .footer {
   text-align: center;
-  background: navy;
+  background: black;
   color: white;
   padding: 20px;
 }
@@ -75,7 +75,7 @@ button:hover {
 
 .card,
 .project-card {
-  background: white;
+  background: rgb(164, 219, 238);
   padding: 25px;
   width: 220px;
   border-radius: 10px;
