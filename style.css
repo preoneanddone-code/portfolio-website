@@ -100,3 +100,17 @@ button:hover {
 .dark .project-card a {
   color: orange;
 }
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
