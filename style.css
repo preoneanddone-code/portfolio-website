@@ -52,10 +52,12 @@ button:hover {
   background: gold;
 }
 
+
+/* Code for the Top of the Page */
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: lightblue;
+  background: rgb(126, 169, 224);
 }
 
 .section {
@@ -75,7 +77,7 @@ button:hover {
 
 .card,
 .project-card {
-  background: rgb(164, 219, 238);
+  background: rgb(157, 204, 219);
   padding: 25px;
   width: 220px;
   border-radius: 10px;
